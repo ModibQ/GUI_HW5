@@ -1,4 +1,4 @@
-Link to Website:
+Link to Website: https://modibq.github.io/GUI_HW5/
 
 Features that I added.
 
@@ -14,8 +14,9 @@ Problems:
 
 Everything works except actual words being recognized.
 Another problem is that letters can be placed apart.
-Has Issues building the full game on the website for
-some reason. It works perfectly fine on the local when
-you download it.
+Sometimes all the tiles wont load properly so just make
+sure to reset the game once or twice. Also sometimes it
+doesn't give all the tiles so make sure you press continue
+another time to give back all the tiles.
 
 

@@ -1,0 +1,45 @@
+<!-- File: ~/index.html
+Homework 5: Making the Scrabble Game
+Modib Qadir, UMass Lowell Computer Science, Modib_qadir@student.uml.edu
+Copyright (c) 2023 by Modib Qadir. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+Updated by MQ on December 13th, 2023. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrabble Game</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    
+    <h1>Scrabble Game</h1>
+    <div id="game-container">
+        <div id="scrabble-board"></div>
+        <div id="rack">
+            <div id="tile-rack"></div>
+        </div>
+    </div>
+    <div id="tiles-left">
+        Tiles Left: <span id="tilesLeft">100</span>
+    </div>
+
+    <div id="score-display">
+        Score: <span id="score">0</span>
+    </div>
+
+    <div class="button-area">
+        <button type="button" id="conbtn">Continue</button>
+        <button type="button" id="resetbtn">Reset Game</button>
+    </div>
+    <!-- Found font online link: https://wdexplorer.com/20-examples-beautiful-css-typography-design/  -->
+    <div id="final-score" style=" font-size: 100px; letter-spacing: -1px; color: #DFBF84; text-transform: uppercase; text-shadow: 1px 1px 0 #000; margin-top: 50px; text-align: center; line-height: 50px;"></div>
+</body>
+</html>

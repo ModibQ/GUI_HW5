@@ -107,7 +107,7 @@ function generateTiles() {
         ScrabbleTiles[genFirst].amount--;
         let letter = ScrabbleTiles[genFirst].letter;
         let value = ScrabbleTiles[genFirst].value;
-        $('#t' + i).append('<div class="tile" style="background-image: url(\'./images/Scrabble_Tiles/Scrabble_Tile_' + letter + '.jpg\')" id="drag' + i + '" data-value="' + value + '" draggable="true" ondragstart="drag(event)"></div>');
+        $('#t' + i).append('<div class="tile ' + letter + '" id="drag' + i + '" data-value="' + value + '" draggable="true" ondragstart="drag(event)"></div>');
     }else{
         let newTile = tileGenerate();
         while (ScrabbleTiles[newTile].amount === 0) {
@@ -115,7 +115,7 @@ function generateTiles() {
         }
         let letter = ScrabbleTiles[newTile].letter;
         let value = ScrabbleTiles[newTile].value;
-        $('#t' + i).append('<div class="tile" style="background-image: url(\'./images/Scrabble_Tiles/Scrabble_Tile_' + letter + '.jpg\')" id="drag' + i + '" data-value="' + value + '" draggable="true" ondragstart="drag(event)"></div>');
+        $('#t' + i).append('<div class="tile ' + letter + '" id="drag' + i + '" data-value="' + value + '" draggable="true" ondragstart="drag(event)"></div>');
         ScrabbleTiles[newTile].amount--;
         }
     }

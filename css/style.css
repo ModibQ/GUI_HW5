@@ -46,7 +46,7 @@ body {
 }
 
 #tile-rack {
-  background-image: url("/images/scrabble-tile-holder-406774_640.png");
+  background-image: url("../images/scrabble-tile-holder-406774_640.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 110%;
@@ -143,4 +143,113 @@ h1 {
   font-size: 50px;
   font-style: italic;
   font: bold;
+}
+
+.A {
+  background: url("../images/Scrabble_Tiles/Scrabble_Tile_A.jpg");
+  background-size: cover;
+}
+.B {
+  background: url("../images/Scrabble_Tiles/Scrabble_Tile_B.jpg");
+  background-size: cover;
+}
+.C {
+  background: url("../images/Scrabble_Tiles/Scrabble_Tile_C.jpg");
+  background-size: cover;
+}
+.D {
+  background: url("../images/Scrabble_Tiles/Scrabble_Tile_D.jpg");
+  background-size: cover;
+}
+.E {
+  background: url("../images/Scrabble_Tiles/Scrabble_Tile_E.jpg");
+  background-size: cover;
+}
+.F {
+  background: url("../images/Scrabble_Tiles/Scrabble_Tile_F.jpg");
+  background-size: cover;
+}
+.G {
+  background: url("../images/Scrabble_Tiles/Scrabble_Tile_G.jpg");
+  background-size: cover;
+}
+.H {
+  background: url("../images/Scrabble_Tiles/Scrabble_Tile_H.jpg");
+  background-size: cover;
+}
+.I {
+  background: url("../images/Scrabble_Tiles/Scrabble_Tile_I.jpg");
+  background-size: cover;
+}
+.J {
+  background: url("../images/Scrabble_Tiles/Scrabble_Tile_J.jpg");
+  background-size: cover;
+}
+.K {
+  background: url("../images/Scrabble_Tiles/Scrabble_Tile_K.jpg");
+  background-size: cover;
+}
+.L {
+  background: url("../images/Scrabble_Tiles/Scrabble_Tile_L.jpg");
+  background-size: cover;
+}
+.M {
+  background: url("../images/Scrabble_Tiles/Scrabble_Tile_M.jpg");
+  background-size: cover;
+}
+.N {
+  background: url("../images/Scrabble_Tiles/Scrabble_Tile_N.jpg");
+  background-size: cover;
+}
+.O {
+  background: url("../images/Scrabble_Tiles/Scrabble_Tile_O.jpg");
+  background-size: cover;
+}
+.P {
+  background: url("../images/Scrabble_Tiles/Scrabble_Tile_P.jpg");
+  background-size: cover;
+}
+.Q {
+  background: url("../images/Scrabble_Tiles/Scrabble_Tile_Q.jpg");
+  background-size: cover;
+}
+.R {
+  background: url("../images/Scrabble_Tiles/Scrabble_Tile_R.jpg");
+  background-size: cover;
+}
+.S {
+  background: url("../images/Scrabble_Tiles/Scrabble_Tile_S.jpg");
+  background-size: cover;
+}
+.T {
+  background: url("../images/Scrabble_Tiles/Scrabble_Tile_T.jpg");
+  background-size: cover;
+}
+.U {
+  background: url("../images/Scrabble_Tiles/Scrabble_Tile_U.jpg");
+  background-size: cover;
+}
+.V {
+  background: url("../images/Scrabble_Tiles/Scrabble_Tile_V.jpg");
+  background-size: cover;
+}
+.W {
+  background: url("../images/Scrabble_Tiles/Scrabble_Tile_W.jpg");
+  background-size: cover;
+}
+.X {
+  background: url("../images/Scrabble_Tiles/Scrabble_Tile_X.jpg");
+  background-size: cover;
+}
+.Y {
+  background: url("../images/Scrabble_Tiles/Scrabble_Tile_Y.jpg");
+  background-size: cover;
+}
+.Z {
+  background: url("../images/Scrabble_Tiles/Scrabble_Tile_Z.jpg");
+  background-size: cover;
+}
+._ {
+  background: url("../images/Scrabble_Tiles/Scrabble_Tile_Blank.jpg");
+  background-size: cover;
 }
